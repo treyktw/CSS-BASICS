@@ -1,0 +1,104 @@
+body{
+    /*background-color: black; or */
+    /*background: linear-gradient(to top, skyblue, orange);
+    background-repeat:no-repeat;
+    background-attachment: fixed;*/
+    background-image: url(seoul.jpg);
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0px;
+}
+h1{
+    color: rgb(0, 0, 0);
+    font-family: "Michroma";
+    border-top-style: double;
+    border-bottom-style: double;
+    border-left-style: double;
+    border-left-width: 10px;
+    border-left-color: brown;
+    border-right-style: double;
+    border-right-width: 10px;
+    border-right-color:brown;
+    background: linear-gradient(to left, skyblue, rgb(255, 255, 255));
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+p{
+    background-color: grey;
+    color: white;
+    font-family: "consolas", "sans-serif";
+}
+#p1{
+    color: red;
+    font-family: "consolas", "sans-serif";
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: cyan underline;
+    font-size: 18px;
+    background: linear-gradient(to right, skyblue, rgb(255, 255, 255));
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+#p2{
+    color: blue;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gold;
+    border-radius: 10px;
+    padding: 5px;
+}
+#p3{
+    color: rgb(0, 255, 13);
+}
+#p4{
+    color: rgb(255, 217, 0);
+    
+}
+#p5{
+    color: rgb(255, 140, 0);
+    
+}
+#p6{
+    color: rgb(0, 234, 255);
+    
+}
+#p7{
+    color: rgb(179, 0, 255);
+    
+}
+#p8{
+    color: rgb(255, 0, 251);
+    
+}
+/*or do*/
+.odd{
+    color: beige;
+}
+.even{
+    color: rgb(115, 0, 255);
+}
+#box1{
+    border: 5px solid;
+    width: 350px;
+    height: 250px;
+    font-size: 22px;
+    background: greenyellow;
+    /*
+    margin-top: 50px;
+    margin-left: 50px;
+    margin-bottom: 50px;
+    */
+    margin-right: auto;
+    margin-left: auto;
+}
+#box2{
+    border: 5px solid;
+    width: 350px;
+    height: 250px;
+    font-size: 22px;
+    background: purple;
+}
+
+
